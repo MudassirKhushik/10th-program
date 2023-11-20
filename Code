@@ -1,10 +1,16 @@
+
 #include<iostream>
 using namespace std;
 Int main()
 string word;
 string sentence;
-Cout<<"Enter Any Word : ";
+
+cout<<"Enter Any Word : ";
 cin>>word;
 
+cout<<"Enter any Sentence : ";
+getline(cin,sentence);
+
+return 0;
 }
 
